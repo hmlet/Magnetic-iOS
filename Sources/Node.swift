@@ -16,7 +16,7 @@ import SpriteKit
         label.fontSize = Defaults.fontSize
         label.fontColor = Defaults.fontColor
         label.verticalAlignmentMode = .center
-        label.width = self.frame.width
+        label.width = self.frame.width - 30
         label.separator = " "
         addChild(label)
         return label
